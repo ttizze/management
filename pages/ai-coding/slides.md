@@ -75,8 +75,6 @@ layout: default
 - でも“出せる速さ”は爆増していない
 - **ボトルネックは「コーディング」から「仕様・検証・レビュー・運用」へ**
 
-<div class="text-xs text-gray-400">出典：GitHub Octoverse 2025 / Atlassian State of DevEx 2025</div>
-
 ---
 layout: default
 ---
@@ -88,7 +86,6 @@ layout: default
 - PRマージ **43.2M/月（+23% YoY）**
 - Code push **82.19M/月**
 - コミット **986M/年（+25% YoY）**
-- Issue/PRコメントはほぼ横ばい、コミットコメントは減少
 
 <div class="text-xs text-gray-400">出典：GitHub Octoverse 2025</div>
 
@@ -119,6 +116,9 @@ layout: default
 - **コア開発者の“自分のコード生産性” -19%**
 
 <div class="text-xs text-gray-400">出典：arXiv 2510.10165</div>
+
+
+質の悪いPRが増えたことでレビュー負荷が増大
 
 ---
 layout: default
@@ -152,7 +152,7 @@ layout: default
 
 # なぜ遅いのか？
 
-- 仕様・検証・レビュー・運用に共通するのは **「答えが曖昧」** なこと
+- 新たなボトルネック､「仕様・検証・レビュー・運用」に共通するのは **「答えが曖昧」** なこと
 - 答えが曖昧だとAIは迷子になる
 
 ---
@@ -303,7 +303,7 @@ layout: default
 
 # 実践 3：検証可能性を作る
 
-- **検証できるなら自動化できるはず**
+- **検証できるなら自動化できる**
 - 「仕様の形」を作ることが最重要
 
 ---
